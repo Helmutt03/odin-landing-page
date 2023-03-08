@@ -1,0 +1,232 @@
+
+/* SOME GLOBAL SHIT */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: darkolivegreen;
+    margin: 0 100px;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+ /* NAVBAR CODE */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    mix-blend-mode: color-burn;
+
+}
+
+
+/* WELCOME SCREEN CSS  */
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+
+.welcome-img {
+background-color: white;
+flex: 1;
+max-width: 300px;
+border: solid goldenrod;
+}
+
+
+.welcome-text {
+    flex: 1;
+    font-size: 48px;   
+    color: #f9faf8; ;
+    max-width: 700px;
+    font-weight: bolder;
+}
+
+.signup {
+    background-color:goldenrod;
+    border: none;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+
+
+.welcome-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
+
+
+/* BILDER FYRKANTER */
+
+
+
+.square-content {
+    background-color: whitesmoke;
+    padding: 25px 0 25px;
+    margin: 0 -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.information-text {
+    flex:1;
+    padding-bottom: 25px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+
+
+.squares {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.square-img {
+    width: 200px;
+    height: 200px;
+    border: solid darkolivegreen;
+    border-radius: 20px;
+
+}
+
+.square-text {
+    max-width: 150px
+}
+
+
+/* Quote CSS */
+
+.quote-container {
+display: flex;
+flex-direction: column;
+background-color: lightgrey;
+margin: 0 -100px;
+text-align: center;
+padding: 0 300px;
+gap: 20px;
+
+}
+
+.quote-text {
+    font-size: 36px;
+    display: block;
+    font-weight: lighter;
+    padding-top: 20px
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 24px;  
+    font-weight: bolder;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+
+/* SIGNUP CSS */
+
+.white-container {
+    background-color: white;
+    margin: 0 -100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px 150px;
+}
+
+.signup-container {
+    background-color: darkolivegreen;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    padding: 25px;
+}
+
+.signup-text{
+    font-size: 24px;
+    flex:3;
+}
+
+.signup-subtext {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.727);
+}
+
+.signup2 {
+    flex:1;
+    border: none;
+    background-color: goldenrod;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* FOOTER CSS */
+
+.footer-container {
+display:flex;
+justify-content: center;
+align-items: center;
+height: 50px;
+
+}
+
+.footer-text   {
+    color: white;
+}
